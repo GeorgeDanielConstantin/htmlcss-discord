@@ -1,0 +1,205 @@
+body {
+    height: 100vh;
+}
+
+/* HEADER */
+
+header {
+    background-color: #3161e0;
+}
+
+.lll {
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.lll>.logo,
+.lll>.login {
+    width: 150px;
+    color: inherit;
+    min-width: 100px;
+}
+
+.login>* {
+    background-color: white;
+    color: black;
+    border-radius: 60%;
+    padding: 5%;
+}
+
+.lll>.links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+/* PARTE BLU */
+
+.secblue {
+    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.box-solo1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+}
+
+.box-solo1 > h1 {
+    margin: 2rem auto;
+}
+
+.intro {
+    margin-bottom: 2rem;
+}
+
+nav {
+    display: flex;
+}
+
+.mac {
+    background-color: black;
+    text-align: center;
+    border-radius: 60%;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+.browser {
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 50%;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+/* PARTI BIANCHE/GRIGIE */
+
+.secwhite {
+    background-color: white;
+    height: 600px;
+}
+
+.secgrey {
+    background-color: #d3d3d3;
+    height: 600px;
+}
+
+.box {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+ 
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.boxblue {
+    width: 65%;
+}
+
+.boxpink {
+    width: 35%;
+    padding: 5% 10%;
+}
+
+.boxpink > * {
+    margin: 1rem auto;
+}
+
+
+
+/* GREEN BOX */
+
+.sec-boxgreen {
+    background-color: #d3d3d3;
+    height: 1000px;
+}
+
+.greenbox {
+    display: flex;
+    width: 100%;
+    background-color: #228b22;
+    border: 2px dashed black;
+    height: 900px;
+}
+
+/* PARTE NERA */
+
+.secblack {
+    height: 600px;
+    background-color: #23272a;
+}
+
+.lastboxes {
+    display: flex;
+    width: 100%;
+    height: 550px;
+}
+
+.stbox {
+    background-color: #f08080;
+    width: 35%;
+    border: 2px dashed black;
+}
+
+.aquaboxes {
+    display: flex;
+    background-color: #20b2aa;
+    width: 65%;
+    border: 2px dashed black;
+    flex-direction: row;
+}
+
+.otherboxes {
+    width: calc(100% / 4);
+    height: 100%;
+    border: 2px dashed white;
+}
+
+hr {
+    color: #b4b3b3;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #23272a;
+    height: 100px;
+
+}
+
+.lb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7fffd4;
+    height: 80px;
+    width: 100%;
+}
+
+.lastpink {
+    background-color: #ffb6c1;
+    border: 2px dashed black;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+}
